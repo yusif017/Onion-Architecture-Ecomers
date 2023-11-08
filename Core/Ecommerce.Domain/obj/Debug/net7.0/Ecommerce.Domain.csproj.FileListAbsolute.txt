@@ -20,3 +20,14 @@ C:\Users\yusif\OneDrive\Masaüstü\onion\Onion-Architecture\Ecommerce\Core\Ecomm
 C:\Users\yusif\OneDrive\Masaüstü\onion\Onion-Architecture\Ecommerce\Core\Ecommerce.Domain\obj\Debug\net7.0\refint\Ecommerce.Domain.dll
 C:\Users\yusif\OneDrive\Masaüstü\onion\Onion-Architecture\Ecommerce\Core\Ecommerce.Domain\obj\Debug\net7.0\Ecommerce.Domain.pdb
 C:\Users\yusif\OneDrive\Masaüstü\onion\Onion-Architecture\Ecommerce\Core\Ecommerce.Domain\obj\Debug\net7.0\ref\Ecommerce.Domain.dll
+C:\Users\yusif\OneDrive\Masaüstü\Ecomers Onion\Ecommerce\Core\Ecommerce.Domain\bin\Debug\net7.0\Ecommerce.Domain.deps.json
+C:\Users\yusif\OneDrive\Masaüstü\Ecomers Onion\Ecommerce\Core\Ecommerce.Domain\bin\Debug\net7.0\Ecommerce.Domain.dll
+C:\Users\yusif\OneDrive\Masaüstü\Ecomers Onion\Ecommerce\Core\Ecommerce.Domain\bin\Debug\net7.0\Ecommerce.Domain.pdb
+C:\Users\yusif\OneDrive\Masaüstü\Ecomers Onion\Ecommerce\Core\Ecommerce.Domain\obj\Debug\net7.0\Ecommerce.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yusif\OneDrive\Masaüstü\Ecomers Onion\Ecommerce\Core\Ecommerce.Domain\obj\Debug\net7.0\Ecommerce.Domain.AssemblyInfoInputs.cache
+C:\Users\yusif\OneDrive\Masaüstü\Ecomers Onion\Ecommerce\Core\Ecommerce.Domain\obj\Debug\net7.0\Ecommerce.Domain.AssemblyInfo.cs
+C:\Users\yusif\OneDrive\Masaüstü\Ecomers Onion\Ecommerce\Core\Ecommerce.Domain\obj\Debug\net7.0\Ecommerce.Domain.csproj.CoreCompileInputs.cache
+C:\Users\yusif\OneDrive\Masaüstü\Ecomers Onion\Ecommerce\Core\Ecommerce.Domain\obj\Debug\net7.0\Ecommerce.Domain.dll
+C:\Users\yusif\OneDrive\Masaüstü\Ecomers Onion\Ecommerce\Core\Ecommerce.Domain\obj\Debug\net7.0\refint\Ecommerce.Domain.dll
+C:\Users\yusif\OneDrive\Masaüstü\Ecomers Onion\Ecommerce\Core\Ecommerce.Domain\obj\Debug\net7.0\Ecommerce.Domain.pdb
+C:\Users\yusif\OneDrive\Masaüstü\Ecomers Onion\Ecommerce\Core\Ecommerce.Domain\obj\Debug\net7.0\ref\Ecommerce.Domain.dll

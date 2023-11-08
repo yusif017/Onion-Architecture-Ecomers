@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "crFh/ZQsMTbBqkNvPfBLDQJENJ/aR4JC5m+NyyXPqwE=",
+  "Hash": "TkErizi6dbCyBKXX4E30/iHJAKb7T0ZJpvzoGiRRkH4=",
   "Source": "Ecommerce.API",
   "BasePath": "_content/Ecommerce.API",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "Ecommerce.API\\wwwroot",
       "Source": "Ecommerce.API",
-      "ContentRoot": "C:\\Users\\yusif\\OneDrive\\Masaüstü\\onion\\Onion-Architecture\\Ecommerce\\Presentation\\Ecommerce.API\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\yusif\\OneDrive\\Masaüstü\\Ecomers Onion\\Ecommerce\\Presentation\\Ecommerce.API\\wwwroot\\",
       "BasePath": "_content/Ecommerce.API",
       "Pattern": "**"
     }

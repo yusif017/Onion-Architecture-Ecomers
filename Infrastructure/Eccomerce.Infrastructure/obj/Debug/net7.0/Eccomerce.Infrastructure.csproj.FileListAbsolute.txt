@@ -32,3 +32,20 @@ C:\Users\yusif\OneDrive\Masaüstü\onion\Onion-Architecture\Ecommerce\Infrastruc
 C:\Users\yusif\OneDrive\Masaüstü\onion\Onion-Architecture\Ecommerce\Infrastructure\Eccomerce.Infrastructure\obj\Debug\net7.0\refint\Eccomerce.Infrastructure.dll
 C:\Users\yusif\OneDrive\Masaüstü\onion\Onion-Architecture\Ecommerce\Infrastructure\Eccomerce.Infrastructure\obj\Debug\net7.0\Eccomerce.Infrastructure.pdb
 C:\Users\yusif\OneDrive\Masaüstü\onion\Onion-Architecture\Ecommerce\Infrastructure\Eccomerce.Infrastructure\obj\Debug\net7.0\ref\Eccomerce.Infrastructure.dll
+C:\Users\yusif\OneDrive\Masaüstü\Ecomers Onion\Ecommerce\Infrastructure\Eccomerce.Infrastructure\bin\Debug\net7.0\Eccomerce.Infrastructure.deps.json
+C:\Users\yusif\OneDrive\Masaüstü\Ecomers Onion\Ecommerce\Infrastructure\Eccomerce.Infrastructure\bin\Debug\net7.0\Eccomerce.Infrastructure.dll
+C:\Users\yusif\OneDrive\Masaüstü\Ecomers Onion\Ecommerce\Infrastructure\Eccomerce.Infrastructure\bin\Debug\net7.0\Eccomerce.Infrastructure.pdb
+C:\Users\yusif\OneDrive\Masaüstü\Ecomers Onion\Ecommerce\Infrastructure\Eccomerce.Infrastructure\bin\Debug\net7.0\Ecomerce.Application.dll
+C:\Users\yusif\OneDrive\Masaüstü\Ecomers Onion\Ecommerce\Infrastructure\Eccomerce.Infrastructure\bin\Debug\net7.0\Ecommerce.Domain.dll
+C:\Users\yusif\OneDrive\Masaüstü\Ecomers Onion\Ecommerce\Infrastructure\Eccomerce.Infrastructure\bin\Debug\net7.0\Ecomerce.Application.pdb
+C:\Users\yusif\OneDrive\Masaüstü\Ecomers Onion\Ecommerce\Infrastructure\Eccomerce.Infrastructure\bin\Debug\net7.0\Ecommerce.Domain.pdb
+C:\Users\yusif\OneDrive\Masaüstü\Ecomers Onion\Ecommerce\Infrastructure\Eccomerce.Infrastructure\obj\Debug\net7.0\Eccomerce.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\yusif\OneDrive\Masaüstü\Ecomers Onion\Ecommerce\Infrastructure\Eccomerce.Infrastructure\obj\Debug\net7.0\Eccomerce.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yusif\OneDrive\Masaüstü\Ecomers Onion\Ecommerce\Infrastructure\Eccomerce.Infrastructure\obj\Debug\net7.0\Eccomerce.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\yusif\OneDrive\Masaüstü\Ecomers Onion\Ecommerce\Infrastructure\Eccomerce.Infrastructure\obj\Debug\net7.0\Eccomerce.Infrastructure.AssemblyInfo.cs
+C:\Users\yusif\OneDrive\Masaüstü\Ecomers Onion\Ecommerce\Infrastructure\Eccomerce.Infrastructure\obj\Debug\net7.0\Eccomerce.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\yusif\OneDrive\Masaüstü\Ecomers Onion\Ecommerce\Infrastructure\Eccomerce.Infrastructure\obj\Debug\net7.0\Eccomerce.Infrastructure.csproj.CopyComplete
+C:\Users\yusif\OneDrive\Masaüstü\Ecomers Onion\Ecommerce\Infrastructure\Eccomerce.Infrastructure\obj\Debug\net7.0\Eccomerce.Infrastructure.dll
+C:\Users\yusif\OneDrive\Masaüstü\Ecomers Onion\Ecommerce\Infrastructure\Eccomerce.Infrastructure\obj\Debug\net7.0\refint\Eccomerce.Infrastructure.dll
+C:\Users\yusif\OneDrive\Masaüstü\Ecomers Onion\Ecommerce\Infrastructure\Eccomerce.Infrastructure\obj\Debug\net7.0\Eccomerce.Infrastructure.pdb
+C:\Users\yusif\OneDrive\Masaüstü\Ecomers Onion\Ecommerce\Infrastructure\Eccomerce.Infrastructure\obj\Debug\net7.0\ref\Eccomerce.Infrastructure.dll

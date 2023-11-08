@@ -1,11 +1,11 @@
-﻿using System.Net;
+﻿using Ecomerce.Application.Abstractions.Storage;
+using Ecomerce.Application.Repositories;
 using Ecomerce.Application.Repositories.Products;
 using Ecomerce.Application.RequestParameters;
-using Ecomerce.Application.Services;
 using Ecomerce.Application.ViewModels.Products;
 using Ecommerce.Domain.Entities;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
+using System.Net;
 
 namespace Ecommerce.API.Controllers;
 
@@ -17,20 +17,40 @@ public class ProductController : ControllerBase
     private readonly IProductWriteRepository _productWriteRepository;
     private readonly IProductReadRepository _productReadRepository;
     private readonly IWebHostEnvironment _hostEnvironment;
-    private readonly IFileService _fileService;
+    private readonly IFileWriteRepository _fileWriteRepository;
+    private readonly IFileReadRepsoitory _fileReadRepsoitory;
+    private readonly IProductImageFileReadRepsoitory _productImageFileReadRepsoitory;
+    private readonly IProductImageFileWriteRepository _productImageFileWriteRepository;
+    private readonly IInvoiceFileReadRepsoitory _invoiceFileReadRepsoitory;
+    private readonly IInvoiceFileWriteRepository _invoiceFileWriteRepository;
+    private readonly IStorageService _storageService;
 
-    public ProductController
-    (
+    public ProductController(
         IProductWriteRepository productWriteRepository,
         IProductReadRepository productReadRepository,
         IWebHostEnvironment hostEnvironment,
-        IFileService fileService)
+
+        IFileWriteRepository fileWriteRepository,
+        IFileReadRepsoitory fileReadRepsoitory,
+        IProductImageFileReadRepsoitory productImageFileReadRepsoitory,
+        IProductImageFileWriteRepository productImageFileWriteRepository,
+        IInvoiceFileReadRepsoitory invoiceFileReadRepsoitory,
+        IInvoiceFileWriteRepository invoiceFileWriteRepository,
+        IStorageService storageService)
     {
         _productWriteRepository = productWriteRepository;
         _productReadRepository = productReadRepository;
         _hostEnvironment = hostEnvironment;
-        _fileService = fileService;
+        _fileWriteRepository = fileWriteRepository;
+        _fileReadRepsoitory = fileReadRepsoitory;
+        _productImageFileReadRepsoitory = productImageFileReadRepsoitory;
+        _productImageFileWriteRepository = productImageFileWriteRepository;
+        _invoiceFileReadRepsoitory = invoiceFileReadRepsoitory;
+        _invoiceFileWriteRepository = invoiceFileWriteRepository;
+        _storageService = storageService;
     }
+
+
 
     #endregion
 
@@ -100,11 +120,10 @@ public class ProductController : ControllerBase
     [HttpDelete]
     public IActionResult Delete(string id)
     {
-        var a = _productWriteRepository.Remove(id);
-        var v = _productWriteRepository.SaveChanges();
+        var x = _productWriteRepository.Remove(id);
+        var y = _productWriteRepository.SaveChanges();
         return Ok(new
         {
-           
             message = "Delete Success"
         });
     }
@@ -112,7 +131,15 @@ public class ProductController : ControllerBase
     [HttpPost("[action]")]
     public async Task<IActionResult> Upload()
     {
-        await _fileService.UploadAsync("resurce\\product-images",  Request.Form.Files);
+
+        var datas = await _storageService.UploadAsync("resorce/files", Request.Form.Files);
+        await _invoiceFileWriteRepository.AddRangeAsync(datas.Select(x => new InvoiceFile()
+        {
+            FileName = x.fileName,
+            Path = x.pathOrContainerName,
+            Storage = _storageService.StorageName
+        }).ToList());
+        await _invoiceFileWriteRepository.SaveChangesAsync();
         return Ok();
     }
 }

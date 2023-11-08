@@ -14,27 +14,40 @@ public static class ServiceRegistration
     public static void AddPersistenceServices(this IServiceCollection services)
     {
 
-        #region context
+        #region Context
         services.AddDbContext<EcommerceAPIDbContext>(options =>
         options.UseSqlServer(Configuration.ConnectionString));
 
         #endregion
 
-        #region customer
+        #region Customer
         services.AddScoped<ICustomerReadRepository, CustomerReadRepository>();
         services.AddScoped<ICustomerWriteReposiyory, CustomerWriteRepository>();
         #endregion
 
-        #region order
+        #region Order
         services.AddScoped<IOrderReadRepository, OrderReadRepository>();
         services.AddScoped<IOrderWriteRepository, OrderWriteRepository>();
         #endregion
 
-        #region product
+        #region Product
         services.AddScoped<IProductReadRepository, ProductReadRepository>();
         services.AddScoped<IProductWriteRepository, ProductWriteRepository>();
         #endregion
 
+        #region File
+        services.AddScoped<IFileReadRepsoitory, FileReadRepsoitory>();
+        services.AddScoped<IFileWriteRepository, FileWriteRepository>();
+        #endregion
 
+        #region InvoiceFile
+        services.AddScoped<IInvoiceFileReadRepsoitory, InvoiceFileReadRepsoitory>();
+        services.AddScoped<IInvoiceFileWriteRepository, InvoiceFileWriteRepository>();
+        #endregion
+
+        #region ProductImageFile
+        services.AddScoped<IProductImageFileReadRepsoitory, ProductImageFileReadRepsoitory>();
+        services.AddScoped<IProductImageFileReadRepsoitory, ProductImageFileReadRepsoitory>();
+        #endregion
     }
 }
