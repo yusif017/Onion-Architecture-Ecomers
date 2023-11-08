@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "crFh/ZQsMTbBqkNvPfBLDQJENJ/aR4JC5m+NyyXPqwE=",
+  "Source": "Ecommerce.API",
+  "BasePath": "_content/Ecommerce.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Ecommerce.API\\wwwroot",
+      "Source": "Ecommerce.API",
+      "ContentRoot": "C:\\Users\\yusif\\OneDrive\\Masaüstü\\onion\\Onion-Architecture\\Ecommerce\\Presentation\\Ecommerce.API\\wwwroot\\",
+      "BasePath": "_content/Ecommerce.API",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}
