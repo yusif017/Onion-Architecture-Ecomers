@@ -6,6 +6,13 @@ using Ecommerce.Persistence.Contexts;
 using Ecommerce.Persistence.Repositories;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.EntityFrameworkCore;
+using Application.Repositories.ProductImageFileRepositories;
+using Ecomerce.Application.Repositories.FileRepositories;
+using Ecomerce.Application.Repositories.InvoiceFileRepositories;
+using Ecomerce.Application.Repositories.ProductImageFileRepositories;
+using Ecommerce.Persistence.Repositories.FileRepositories;
+using Ecommerce.Persistence.Repositories.InvoiceFileRepositories;
+using Ecommerce.Persistence.Repositories.ProductImageFileRepositories;
 
 namespace Ecommerce.Persistence.ServiceRegistrations;
 
@@ -35,19 +42,15 @@ public static class ServiceRegistration
         services.AddScoped<IProductWriteRepository, ProductWriteRepository>();
         #endregion
 
-        #region File
-        services.AddScoped<IFileReadRepsoitory, FileReadRepsoitory>();
-        services.AddScoped<IFileWriteRepository, FileWriteRepository>();
-        #endregion
 
-        #region InvoiceFile
-        services.AddScoped<IInvoiceFileReadRepsoitory, InvoiceFileReadRepsoitory>();
+
+        services.AddScoped<IFileReadRepositories, FileReadRepositories>();
+        services.AddScoped<IFileWriteRepositories, FileWriteRepositories>();
+
+        services.AddScoped<IInvoiceFileReadRepository, InvoiceFileReadRepository>();
         services.AddScoped<IInvoiceFileWriteRepository, InvoiceFileWriteRepository>();
-        #endregion
 
-        #region ProductImageFile
-        services.AddScoped<IProductImageFileReadRepsoitory, ProductImageFileReadRepsoitory>();
-        services.AddScoped<IProductImageFileReadRepsoitory, ProductImageFileReadRepsoitory>();
-        #endregion
+        services.AddScoped<IProductImageFileReadRepository, ProductImageReadFileRepository>();
+        services.AddScoped<IProductImageFileWriteRepository, ProductImageWriteFileRepository>();
     }
 }

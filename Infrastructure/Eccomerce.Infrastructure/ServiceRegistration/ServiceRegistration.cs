@@ -1,9 +1,8 @@
-﻿
-using Eccomerce.Infrastructure.Concreates.Storage;
-using Eccomerce.Infrastructure.Concreates.Storage.Local;
-using Eccomerce.Infrastructure.Enums;
-using Ecomerce.Application.Abstractions;
-using Ecomerce.Application.Abstractions.Storage;
+﻿using Eccomerce.Infrastructure.Enums;
+using Ecomerce.Application.Abstraction.Storage;
+using Ecomerce.Infrastructure.Concreate.Storages;
+using Ecomerce.Infrastructure.Concreate.Storages.Azure;
+using Ecomerce.Infrastructure.Concreate.Storages.LocalStorage;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace Eccomerce.Infrastructure.ServiceRegistration;
@@ -18,6 +17,7 @@ public static class ServiceRegistration
     public static void AddStorage<T>(this IServiceCollection serviceCollection) where T : class, IStorage
     {
         serviceCollection.AddScoped<IStorage, T>();
+
     }
     public static void AddStorage(this IServiceCollection serviceCollection, StorgeType storgeType)
     {
@@ -27,6 +27,7 @@ public static class ServiceRegistration
                 serviceCollection.AddScoped<IStorage, LocalStorage>();
                 break;
             case StorgeType.Azure:
+                serviceCollection.AddScoped<IStorage, AzureStorage>();
                 break;
             case StorgeType.AWS:
                 break;

@@ -229,3 +229,6 @@ C:\Users\yusif\OneDrive\Masaüstü\Ecomers Onion\Ecommerce\Presentation\Ecommerc
 C:\Users\yusif\OneDrive\Masaüstü\Ecomers Onion\Ecommerce\Presentation\Ecommerce.API\obj\Debug\net7.0\Ecommerce.API.pdb
 C:\Users\yusif\OneDrive\Masaüstü\Ecomers Onion\Ecommerce\Presentation\Ecommerce.API\obj\Debug\net7.0\Ecommerce.API.genruntimeconfig.cache
 C:\Users\yusif\OneDrive\Masaüstü\Ecomers Onion\Ecommerce\Presentation\Ecommerce.API\obj\Debug\net7.0\ref\Ecommerce.API.dll
+C:\Users\yusif\OneDrive\Masaüstü\Ecomers Onion\Ecommerce\Presentation\Ecommerce.API\bin\Debug\net7.0\Azure.Storage.Blobs.dll
+C:\Users\yusif\OneDrive\Masaüstü\Ecomers Onion\Ecommerce\Presentation\Ecommerce.API\bin\Debug\net7.0\Azure.Storage.Common.dll
+C:\Users\yusif\OneDrive\Masaüstü\Ecomers Onion\Ecommerce\Presentation\Ecommerce.API\bin\Debug\net7.0\System.IO.Hashing.dll

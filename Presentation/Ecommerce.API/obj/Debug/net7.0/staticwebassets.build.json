@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "TkErizi6dbCyBKXX4E30/iHJAKb7T0ZJpvzoGiRRkH4=",
+  "Hash": "b+gqSZxudHbU/skLc5jgPkcGbqVGmUU+uwhPHlDScDU=",
   "Source": "Ecommerce.API",
   "BasePath": "_content/Ecommerce.API",
   "Mode": "Default",
@@ -15,5 +15,23 @@
       "Pattern": "**"
     }
   ],
-  "Assets": []
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\yusif\\OneDrive\\Masaüstü\\Ecomers Onion\\Ecommerce\\Presentation\\Ecommerce.API\\wwwroot\\file\\saa\\Screenshot-2023-07-16-194313.png",
+      "SourceId": "Ecommerce.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yusif\\OneDrive\\Masaüstü\\Ecomers Onion\\Ecommerce\\Presentation\\Ecommerce.API\\wwwroot\\",
+      "BasePath": "_content/Ecommerce.API",
+      "RelativePath": "file/saa/Screenshot-2023-07-16-194313.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\file\\saa\\Screenshot-2023-07-16-194313.png"
+    }
+  ]
 }

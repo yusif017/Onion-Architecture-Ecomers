@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\yusif\\OneDrive\\Masaüstü\\Ecomers Onion\\Ecommerce\\Presentation\\Ecommerce.API\\wwwroot\\file\\saa\\Screenshot-2023-07-16-194313.png",
+      "PackagePath": "staticwebassets\\file\\saa\\Screenshot-2023-07-16-194313.png"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Ecommerce.API.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.Ecommerce.API.props",
+      "PackagePath": "build\\Ecommerce.API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Ecommerce.API.props",
+      "PackagePath": "buildMultiTargeting\\Ecommerce.API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.Ecommerce.API.props",
+      "PackagePath": "buildTransitive\\Ecommerce.API.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

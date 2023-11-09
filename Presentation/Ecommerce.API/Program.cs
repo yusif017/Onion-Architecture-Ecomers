@@ -1,9 +1,8 @@
 #region using
-using Eccomerce.Infrastructure.Concreates.Storage.Local;
 using Eccomerce.Infrastructure.Filters;
-using Eccomerce.Infrastructure.Operations;
 using Eccomerce.Infrastructure.ServiceRegistration;
 using Ecomerce.Application.Validators.Products;
+using Ecomerce.Infrastructure.Concreate.Storages.Azure;
 using Ecommerce.Persistence.ServiceRegistrations;
 using FluentValidation.AspNetCore;
 #endregion
@@ -15,7 +14,9 @@ var builder = WebApplication.CreateBuilder(args);
 #region Services
 builder.Services.AddPersistenceServices();
 builder.Services.AddInfrastructureService();
-builder.Services.AddStorage<LocalStorage>();
+//Local Ve diger servisler
+builder.Services.AddStorage<AzureStorage>();
+//builder.Services.AddStorage<AzureStorage>();
 #endregion
 
 //asp.net corun validatiasi OFF
